@@ -2,12 +2,13 @@
 
 format = """$fill
 $cmd_duration$memory_usage
-$directory$all
+$username$directory$all
 $character"""
+
 right_format = """$all"""
-scan_timeout = 100
-command_timeout = 1000
+
 add_newline = false
+
 palette = "catppuccin_frappe"
 
 [palettes.catppuccin_frappe]
@@ -50,6 +51,7 @@ vimcmd_symbol = "[❮](green)"
 [directory]
 style = "bold lavender"
 truncation_length = -1
+home_symbol = "C:/Users/a"
 
 [cmd_duration]
 min_time = 1
@@ -60,4 +62,7 @@ threshold = 1
 disabled = false
 
 [git_status]
+disabled = true
+
+[docker_context]
 disabled = true
