@@ -608,7 +608,7 @@ widgets:
       auto_gain: true
       framerate: 60
       freq_min: 20
-      freq_max: 16000
+      freq_max: 15000
       hide_idle: true
       hide_idle_after: 1000
       channels: stereo
@@ -618,10 +618,10 @@ widgets:
       bars:
         count: 36
         width: 1
-        gap: 2
+        gap: 3
       waves:
         width: 80
       dots:
         count: 36
         size: 1
-        gap: 2
+        gap: 3
