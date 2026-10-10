@@ -602,26 +602,26 @@ widgets:
     type: "yasb.audio_visualizer.AudioVisualizerWidget"
     options:
       style: bars
-      height: 16
-      smoothness: 80
-      sensitivity: 50
+      height: 20
+      smoothness: 100
+      sensitivity: 100
       auto_gain: true
       framerate: 60
-      freq_min: 500
-      freq_max: 12000
+      freq_min: 20
+      freq_max: 24000
       hide_idle: true
-      hide_idle_after: 2000
-      channels: mono
+      hide_idle_after: 1000
+      channels: stereo
       mono_option: average
       reverse: false
       mirror: false
       bars:
-        count: 24
-        width: 2
-        gap: 4
+        count: 36
+        width: 1
+        gap: 2
       waves:
         width: 80
       dots:
-        count: 24
-        size: 2
-        gap: 4
+        count: 36
+        size: 1
+        gap: 2
