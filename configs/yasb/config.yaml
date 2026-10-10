@@ -604,11 +604,11 @@ widgets:
       style: bars
       height: 20
       smoothness: 100
-      sensitivity: 100
+      sensitivity: 50
       auto_gain: true
       framerate: 60
       freq_min: 20
-      freq_max: 24000
+      freq_max: 16000
       hide_idle: true
       hide_idle_after: 1000
       channels: stereo
