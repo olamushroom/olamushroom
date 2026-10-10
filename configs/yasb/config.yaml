@@ -41,6 +41,7 @@ bars:
       ]
       right: [
         "gr-sysmon",
+        "audio_visualizer",
         "media_lite",
         "notifications",
         "clock",
@@ -597,3 +598,30 @@ widgets:
         direction: "down"
         offset_top: 6
         offset_left: 0
+  audio_visualizer:
+    type: "yasb.audio_visualizer.AudioVisualizerWidget"
+    options:
+      style: bars
+      height: 16
+      smoothness: 80
+      sensitivity: 50
+      auto_gain: true
+      framerate: 60
+      freq_min: 500
+      freq_max: 12000
+      hide_idle: true
+      hide_idle_after: 2000
+      channels: mono
+      mono_option: average
+      reverse: false
+      mirror: false
+      bars:
+        count: 24
+        width: 2
+        gap: 4
+      waves:
+        width: 80
+      dots:
+        count: 24
+        size: 2
+        gap: 4

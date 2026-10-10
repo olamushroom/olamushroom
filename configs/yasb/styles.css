@@ -1538,3 +1538,16 @@ which is 16 pixels same as the other sections. */
 .systray-popup .button:hover {
     background-color: rgba(255, 255, 255, 0.05);
 }
+
+.audio-visualizer-widget {
+    padding: 0px 1px;
+    margin: 0px 1px;
+}
+.audio-visualizer-widget .widget-container {
+    padding: 0px 1px;
+    margin: 0px 1px;
+}
+.audio-visualizer-widget .audio-visualizer-canvas {
+    -qproperty-fillbrush: linear-gradient(to top, #8A9AFF, #8A8AFF, #C38AFF);
+}
+
